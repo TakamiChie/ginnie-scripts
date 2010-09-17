@@ -1,0 +1,6 @@
+[
+  ["Google", "http://www.google.co.jp/search?q=%s&lr=lang_ja"],
+  ["Googleソースコードサーチ", "http://www.google.com/codesearch?q=%s"],
+  ["ヨドバシカメラ", "http://yodobashi.com/ec/search/index.html?Keyword=%s"],
+  ["ウィキペディア", "http://ja.wikipedia.org/wiki/?search=%s"]
+]

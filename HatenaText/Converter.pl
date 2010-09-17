@@ -1,0 +1,10 @@
+use IO::File;
+use Getopt::Long;
+use Text::Hatena;
+use strict;
+my $fn;
+GetOptions("file=s" => \$fn);
+die qq/argument "file" is not optional\n/ unless $fn;
+my $io = new IO::File($fn, "r") or die "$!($fn)";
+my $lines = join("", $io->getlines);
+print Text::Hatena->parse($lines);
