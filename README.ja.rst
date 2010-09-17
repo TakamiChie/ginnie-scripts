@@ -14,8 +14,8 @@ HatenaText
 PerlのText::Hatenaを使用します。
 
 なお、外部ツールとして、以下のツール・ライブラリが必要になります。事前にインストールしておいてください。
--Perl(v5.10.1 built for MSWin32-x86-multi-threadで動作確認済み)
--Text::Hatena(Perlモジュール)
+- Perl(v5.10.1 built for MSWin32-x86-multi-threadで動作確認済み)
+- Text::Hatena(Perlモジュール)
 なお、Text::HatenaはCPANよりインストールしてください。
 導入の仕方がわからない方は、「Text::Hatena インストール」などでWeb検索すればわかります。
 
@@ -24,13 +24,13 @@ ScriptRunner
 ============
 現在開いているファイルをスクリプトファイルとみなし、現在の編集モードに従ったインタプリタで実行します。
 現状対応しているモードは以下の通り
--BAT
--CSharp(.NET Framework 3.5のインストールが必要/シェアウェア版でないと一部機能が動作しません)
--JScript
--PerlScript
--RubyScript
--UWSC
--YAML(Rubyのライブラリでダンプイメージを表示します。Rubyのインストールが必要です)
+- BAT
+- CSharp(.NET Framework 3.5のインストールが必要/シェアウェア版でないと一部機能が動作しません)
+- JScript
+- PerlScript
+- RubyScript
+- UWSC
+- YAML(Rubyのライブラリでダンプイメージを表示します。Rubyのインストールが必要です)
 UWSCとYAMLについては、公式サイトの掲示板にアップロードされている定義ファイルをご使用ください。
 
 ============
