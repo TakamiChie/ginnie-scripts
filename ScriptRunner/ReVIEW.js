@@ -22,7 +22,7 @@ var ScriptRunner = {
         Proc.execute("cmd", "/C", "review-compile", "--target",  "html", fso.getFileName(file), "--output-file=" + OUTFILE, yaml); 
       var outfile = fso.buildpath(shell.currentDirectory, OUTFILE);
 
-      if(ret[1] != "")
+      if(ret[1] != "" && ret[1].indexOf("nodosfilewarning") == -1)
       {
         Dialogs.Alert(ret[1]);
       }else{
