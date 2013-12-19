@@ -28,7 +28,8 @@ PerlのText::Hatenaを使用します。
 * UWSC
 * YAML(Rubyのライブラリでダンプイメージを表示します。Rubyのインストールが必要です)
 * ReVIEW(Cygwin版のRubyをインストールしている必要があります。詳しくはブログをご確認ください)
-** http://blog.onpu-tamago.net/entry/2013/08/12/215503
+
+http://blog.onpu-tamago.net/entry/2013/08/12/215503
 UWSC・YAML・ReVIEWについては、公式サイトの掲示板にアップロードされている定義ファイルをご使用ください。
 ReVIEWについては、ここのSyntaxフォルダに入っているものでも問題ありません。
 
