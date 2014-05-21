@@ -1,4 +1,4 @@
-var Lib_Version = "0.2";
+var Lib_Version = "0.21";
 ImportFile("./Libs/Proc.js");
 ImportFile("./Libs/Logic.js");
 
@@ -11,6 +11,17 @@ function format(string)
     text = text.replace("{" + (i - 1) + "}", arguments[i]); 
   }
   return text;
+}
+
+/* 
+ * trace
+ * アウトプット画面に文字を表示する
+ */
+function trace(string){
+  if(App.Output){
+    var out = App.Output;
+    out.Add("[trace]" + string);
+  }
 }
 
 var FileUtils = {
