@@ -10,14 +10,14 @@
 		<WrapMark Color="12639424" Visible="True"/>
 		<WrapLine Color="-16777201" Visible="True"/>
 		<EofMark Color="12639424" Visible="False"/>
-		<TabMark Color="12639424" Visible="False"/>
+		<TabMark Color="12639424" Visible="True"/>
 		<SpaceMark Color="12639424" Visible="False"/>
 		<DBSpaceMark Color="12639424" Visible="False"/>
 		<CaretLine Color="12639424" Visible="True"/>
 		<CaretHighlight Color="14284799" Visible="True"/>
 		<Ruler Color="31385" BackColor="15793151" MarkColor="41932" Visible="True"/>
 		<Leftbar Color="31385" BackColor="15793151" ModifiedColor="31385" SelBackColor="536870911" Column="1" Visible="True" Logic="True"/>
-		<WordWrap Mode="0" Count="80"/>
+		<WordWrap Mode="2" Count="80"/>
 		<Font Face="メイリオ" Size="10.5"/>
 		<VertLines/>
 		<Backup Enabled="False" Interval="15"/>
@@ -86,6 +86,7 @@
 		<Item Color="16711680" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="@&lt;\w+&gt;{[^}]+}"/>
 		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="//indepimage[\w+]"/>
 		<Item Color="16711680" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="//footnote.*"/>
+		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="//image.*"/>
 	</Keyword>
 	<FindKeyword/>
 	<Bracket>
@@ -96,21 +97,6 @@
 		<Item Color="0" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//listnum" Text2="//}"/>
 		<Item Color="0" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//emlistnum" Text2="//}"/>
 		<Item Color="8421504" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//cmd" Text2="//}"/>
-		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//image" Text2="//}"/>
-		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//graph" Text2="//}"/>
-		<Item Color="8388608" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//table" Text2="//}"/>
-		<Item Color="8421504" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//quote" Text2="//}"/>
-		<Item Color="32768" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//bibpaper" Text2="//}"/>
-		<Item Color="128" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//lead" Text2="//}"/>
-		<Item Color="8421504" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//texequation" Text2="//}"/>
-		<Item Color="8388608" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="===[column]." Text2="[/column]"/>
-		<Item Color="8388608" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//list" Text2="//}"/>
-		<Item Color="8388608" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//emlist" Text2="//}"/>
-		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//source" Text2="//}"/>
-		<Item Color="0" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//listnum" Text2="//}"/>
-		<Item Color="0" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//emlistnum" Text2="//}"/>
-		<Item Color="8421504" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//cmd" Text2="//}"/>
-		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//image" Text2="//}"/>
 		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//graph" Text2="//}"/>
 		<Item Color="8388608" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//table" Text2="//}"/>
 		<Item Color="8421504" BackColor="536870911" Style="1" MatchCase="True" Nest="False" Text1="//quote" Text2="//}"/>
