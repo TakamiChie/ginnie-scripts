@@ -1,5 +1,5 @@
 ImportFile("./Libs/lib.js");
-function onDocumentCaChange(tabIndex, row, col, char)
+function onDocumentCaretChange(tabIndex, row, col, char)
 {
   updateCaretInfo();
 }
