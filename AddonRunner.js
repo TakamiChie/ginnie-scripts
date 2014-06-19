@@ -36,10 +36,13 @@ function build(){
 //   %TEXT%...このトークンがあった場合、挿入直前に入力ダイアログが表示され、そこで入力された語にトークンが置き換えられる
 function insertStringFunc (doc, text){
   // プリプロセス
-  while(text.match(/%%([^%]+)%%/) != null){
-    var s = Dialogs.Prompt(RegExp.$1);
+  while(text.match(/%%(([^%:]+)(:(\w+))?)%%/) != null){
+    var s = Dialogs.Prompt(RegExp.$2);
     if(s.length > 0){
       text = text.split("%%" + RegExp.$1 + "%%").join(s);
+      if(RegExp.$4 != ""){
+        text = text.split("%%" + RegExp.$4 + "%%").join(s);
+      }
     }else{
       // キャンセルとみなす
       return;
