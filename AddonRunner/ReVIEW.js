@@ -17,6 +17,6 @@ var Items = [
   },
   {
     caption: "注釈",
-    body: "@<fn>{%%識別子は？:fn%%}\n//footnote[%%fn%%][%%解説文は？%%]\n"
+    body: "@<fn>{%%識別子は？:fn%%}\n//footnote[%%fn%%][%%解説文は？%%]||\n"
   }
 ]
