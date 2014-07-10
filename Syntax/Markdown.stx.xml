@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Syntax>
+	<Options Name="Markdown">
+		<Info Ext="*.md" DefaultExt=".md" RegexExt="" CodePage="65001" RetCode="0"/>
+		<Caret AutoIndent="True" BkSpcUnindent="False" KeepCaret="False" ScrollCaret="False" TabSpaceCount="2" FreeCaret="False" RightClick="False" SoftTab="True" UpToHome="False" DownToEnd="False" UrlOpen="0" HomeToTextTop="False" IndentEmptyLine="False" SmartIndent="True"/>
+		<Margin Top="1" Left="4" Character="0" Line="0"/>
+		<PairParen Color="255" Brace="False" Paren="True" Bracket="True" Mountain="False" Parsing="False"/>
+		<Complete Mode="0" Enabled="False" Shift="0" Style="19"/>
+		<RetMark Color="12639424" Visible="True"/>
+		<WrapMark Color="12639424" Visible="False"/>
+		<WrapLine Color="-16777201" Visible="False"/>
+		<EofMark Color="12639424" Visible="False"/>
+		<TabMark Color="12639424" Visible="False"/>
+		<SpaceMark Color="12639424" Visible="False"/>
+		<DBSpaceMark Color="12639424" Visible="True"/>
+		<CaretLine Color="12639424" Visible="True"/>
+		<CaretHighlight Color="14284799" Visible="False"/>
+		<Ruler Color="31385" BackColor="15793151" MarkColor="41932" Visible="True"/>
+		<Leftbar Color="31385" BackColor="15793151" ModifiedColor="31385" SelBackColor="536870911" Column="3" Visible="True" Logic="True"/>
+		<WordWrap Mode="0" Count="80"/>
+		<Font Face="ＭＳ ゴシック" Size="10.5"/>
+		<VertLines/>
+		<Backup Enabled="False" Interval="15"/>
+		<Backup2 Enabled="False" MaxCount="3"/>
+		<Outline Mode="9">
+			<Level1 Text="#{1}\s"/>
+			<Level2 Text="#{2}\s"/>
+			<Level3 Text="#{3}\s"/>
+			<Level4 Text="#{4}\s"/>
+			<Level5 Text="#{5}\s"/>
+		</Outline>
+	</Options>
+	<Colors TagMode="0" QuoteInTag="False">
+		<Base Color="-16777208" BackColor="-16777211" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Symbol Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Int Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Ank Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<DBSymbol Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<DBInt Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<DBAlph Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Hira Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<DBKana Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Kanji Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Kana Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<KanaSymbol Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Url Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Comment1 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Comment2 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Comment3 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Comment4 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Quote1 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Quote2 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Quote3 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Quote4 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Hex1 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Hex2 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Hex3 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Hex4 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Decimal1 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Decimal2 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Decimal3 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Decimal4 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Octal1 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Octal2 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Octal3 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Octal4 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Binary1 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Binary2 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Binary3 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Binary4 Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Tag Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<TagElement Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<TagAttribute Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<TagValue Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Select Color="-16777202" BackColor="-16777203" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+		<Highlight Color="16777215" BackColor="255" Style="1" Text1="" Text2="" Text3="" Visible="False"/>
+		<GrepHighlight Color="0" BackColor="65535" Style="1" Text1="" Text2="" Text3="" Visible="False"/>
+		<Other Color="0" BackColor="536870911" Style="0" Text1="" Text2="" Text3="" Visible="False"/>
+	</Colors>
+	<Reserve CaseSensitive="True"/>
+	<Keyword>
+		<Item Color="32768" BackColor="536870911" Style="0" MatchCase="True" WholeWord="False" Text="^#{6}[^#].*"/>
+		<Item Color="32768" BackColor="536870911" Style="0" MatchCase="True" WholeWord="False" Text="^#{5}[^#].*"/>
+		<Item Color="32768" BackColor="536870911" Style="0" MatchCase="True" WholeWord="False" Text="^#{4}[^#].*"/>
+		<Item Color="32768" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="^#{3}[^#].*"/>
+		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="^#{2}[^#].*"/>
+		<Item Color="16711935" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="^.*\n-+$"/>
+		<Item Color="255" BackColor="16777215" Style="1" MatchCase="True" WholeWord="False" Text="^#{1}[^#].*"/>
+		<Item Color="255" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="^.*\n=+$"/>
+		<Item Color="32768" BackColor="16777215" Style="1" MatchCase="True" WholeWord="False" Text="^\s\*\s+.*"/>
+		<Item Color="16711680" BackColor="16777215" Style="1" MatchCase="True" WholeWord="False" Text="^\s\d\s+\..*"/>
+		<Item Color="0" BackColor="16777215" Style="1" MatchCase="False" WholeWord="False" Text="^(\s*[\*-]\s*){3,}$"/>
+		<Item Color="13390336" BackColor="536870911" Style="4" MatchCase="True" WholeWord="False" Text="^&gt;.*"/>
+		<Item Color="13411072" BackColor="536870911" Style="0" MatchCase="True" WholeWord="False" Text="^\s{4}.*"/>
+		<Item Color="32768" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="\*{2}.+?\*{2}"/>
+		<Item Color="32768" BackColor="536870911" Style="1" MatchCase="True" WholeWord="False" Text="__.+?__"/>
+		<Item Color="32768" BackColor="536870911" Style="4" MatchCase="True" WholeWord="False" Text="\*.+?\*"/>
+		<Item Color="32768" BackColor="536870911" Style="4" MatchCase="True" WholeWord="False" Text="_.+?_"/>
+		<Item Color="13411072" BackColor="536870911" Style="0" MatchCase="True" WholeWord="False" Text="`.+?`"/>
+		<Item Color="16711680" BackColor="536870911" Style="0" MatchCase="True" WholeWord="False" Text="\[.+\]\(.+\)"/>
+		<Item Color="16711680" BackColor="536870911" Style="0" MatchCase="True" WholeWord="False" Text="\[.+\]\[.+\]"/>
+	</Keyword>
+	<FindKeyword/>
+	<Bracket/>
+	<Link>
+		<Item Name="" Text1="" MatchCase1="False" WholeWord1="False" Regexp1="False" Text2="" MatchCase2="False" WholeWord2="False" Regexp2="False" Tag="False"/>
+		<Item Name="" Text1="" MatchCase1="False" WholeWord1="False" Regexp1="False" Text2="" MatchCase2="False" WholeWord2="False" Regexp2="False" Tag="False"/>
+		<Item Name="" Text1="" MatchCase1="False" WholeWord1="False" Regexp1="False" Text2="" MatchCase2="False" WholeWord2="False" Regexp2="False" Tag="False"/>
+		<Item Name="" Text1="" MatchCase1="False" WholeWord1="False" Regexp1="False" Text2="" MatchCase2="False" WholeWord2="False" Regexp2="False" Tag="False"/>
+		<Item Name="" Text1="" MatchCase1="False" WholeWord1="False" Regexp1="False" Text2="" MatchCase2="False" WholeWord2="False" Regexp2="False" Tag="False"/>
+	</Link>
+	<TagJump Custom="True">
+		<Root/>
+		<Quote/>
+		<Ext/>
+	</TagJump>
+</Syntax>
