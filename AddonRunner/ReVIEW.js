@@ -4,6 +4,10 @@ var Items = [
     body: "//image[%%画像IDは？%%][%%キャプションは？%%]"
   },
   {
+    caption: "画像(参照)",
+    body: "@<img>{%%画像IDは？%%}"
+  },
+  {
     caption: "引用",
     body: "//quote{\n||\n//}"
   },
