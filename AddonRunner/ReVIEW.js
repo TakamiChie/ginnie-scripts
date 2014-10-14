@@ -8,6 +8,10 @@ var Items = [
     body: "@<img>{%%画像IDは？%%}"
   },
   {
+    caption: "インデックスなし画像",
+    body: "//indepimage[%%画像IDは？%%]"
+  },
+  {
     caption: "引用",
     body: "//quote{\n||\n//}"
   },
