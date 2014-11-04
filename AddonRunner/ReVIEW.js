@@ -12,6 +12,14 @@ var Items = [
     body: "//indepimage[%%画像IDは？%%]"
   },
   {
+    caption: "リスト",
+    body: "//list[%%リストIDは？%%][%%キャプションは？%%]{\n||\n//}"
+  },
+  {
+    caption: "リスト(参照)",
+    body: "@<list>{%%リストIDは？%%}"
+  },
+  {
     caption: "引用",
     body: "//quote{\n||\n//}"
   },
