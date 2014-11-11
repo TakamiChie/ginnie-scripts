@@ -1,4 +1,4 @@
-var Lib_Version = "0.21";
+var Lib_Version = "0.3";
 ImportFile("./Libs/Proc.js");
 ImportFile("./Libs/Logic.js");
 
@@ -12,6 +12,22 @@ function format(string)
   }
   return text;
 }
+
+// contains
+String.prototype.contains = function (string)
+{
+  return this.indexOf(string) > -1;
+}
+
+Array.prototype.contains = function( value ){
+  for(var i in this){
+    if( this.hasOwnProperty(i) && this[i] === value){
+      return true;
+    }
+  }
+  return false;
+}
+
 
 /* 
  * trace
