@@ -41,6 +41,7 @@ function onDocumentKeyPress( tabIndex, key)
             }
             break;
       }
+      break;
     case "JScript":
       var l = doc.caret.lineString(doc.caret.line);
       switch(key){
