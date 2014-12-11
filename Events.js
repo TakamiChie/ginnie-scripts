@@ -39,6 +39,13 @@ function onDocumentKeyPress( tabIndex, key)
               doc.caret.selText = "\n" + m[0];
               return 0;
             }
+            // ブロック文をはじめたら、ブロック文を閉じる
+            var m = l.match(/^\/\/\w+\{/);
+            if(m != null){
+              doc.caret.selText = "\n\n//}\n";
+              doc.caret.selStart = doc.caret.selStart - 5;
+              return 0;
+            }
             break;
       }
       break;
