@@ -18,6 +18,7 @@ function onDocumentKeyPress( tabIndex, key)
   var doc = Documents.NewDocument();
   switch(doc.DocumentType){
     case "ReVIEW":
+    case "Markdown":
       var l = doc.caret.lineString(doc.caret.line);
       switch(key){
         case VK_BACK:
