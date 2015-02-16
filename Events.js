@@ -14,6 +14,7 @@ function onDocumentKeyPress( tabIndex, key)
   var VK_BACK = 0x8;
   var VK_ENTER = 0xd;
   var VK_SHIFT = 0x10;
+  var VK_SLASH = 0x2f;
   // ReView編集モードの時に限り、オートインデントチェック
   var doc = Documents.NewDocument();
   switch(doc.DocumentType){
@@ -70,6 +71,26 @@ function onDocumentKeyPress( tabIndex, key)
             var m = l.match(/^\s*\/\/\s*/);
             if(m != null){
               doc.caret.selText = "\n" + m[0];
+              return 0;
+            }
+            m = l.match(/^\s*\/\*\*/);
+            if(m != null){
+              doc.caret.selText = "\n" + m[0].substring(0, m[0].length - 3) + " * ";
+              return 0;
+            }
+            m = l.match(/^\s+\*\s+/);
+            if(m != null){
+              doc.caret.selText = "\n" + m[0].substring(0, m[0].length - 3) + " * ";
+              return 0;
+            }
+            break;
+        case VK_SLASH:
+            // 長文コメント中に/を入力したら、コメント終了
+            var m = l.match(/^(\s+\*)\s+/);
+            if(m != null){
+              doc.caret.selStart = doc.caret.selStart - m[0].length;
+              doc.caret.selLength= m[0].length;
+              doc.caret.selText = m[1] + "/";
               return 0;
             }
             break;
